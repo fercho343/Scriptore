@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Scriptore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Scriptore is a web application for script creation and storage. It provides an intuitive and user-friendly platform that allows users to write, format, and organize their scripts efficiently.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Script Writing:** Collaboratively create scripts with simple formatting tools.
 
-## Expanding the ESLint configuration
+- **Custom Styles:** Apply specific styles for different script elements such as scenes, action, characters, and dialogue.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **PDF Export:** Convert your scripts into PDF files with a single click.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation and Usage
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone this repository: `git clone git@github.com:fercho343/Scriptore.git`
+2. Install dependencies: `yarn`
+3. Start the application: `yarn dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Visit [http://localhost:5173](http://localhost:5173) in your browser to begin using Scriptore.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Thank you for using Scriptore! We hope it becomes a valuable tool in your scriptwriting process.
